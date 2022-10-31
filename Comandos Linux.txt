@@ -1,0 +1,6 @@
+cd /
+mkdir /scripts
+
+nano script_iac.sh
+
+chmod 722 script_iac.sh
