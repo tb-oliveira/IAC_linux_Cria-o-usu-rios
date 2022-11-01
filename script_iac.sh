@@ -30,31 +30,31 @@ echo "criado grupo GRP_SEC"
 
 echo "Criando usuários..."
 
-useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) G GRP_ADM
+useradd carlos -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
 echo "criado usuário carlos com senha inicial padrão"
 
-useradd maria -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_ADM
+useradd maria -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
 echo "criado usuário maria com senha inicial padrão"
 
-useradd joao -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_ADM
+useradd joao -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
 echo "criado usuário joao com senha inicial padrão"
 
-useradd debora -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_VEN
+useradd debora -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VEN
 echo "criado usuário debora com senha inicial padrão"
 
-useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_VEN
+useradd sebastiana -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VEN
 echo "criado usuário sebastiana com senha inicial padrão"
 
-useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_VEN
+useradd roberto -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VEN
 echo "criado usuário roberto com senha inicial padrão"
 
-useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_SEC
+useradd josefina -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 echo "criado usuário josefina com senha inicial padrão"
 
-useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_SEC
+useradd amanda -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 echo "criado usuário amanda com senha inicial padrão"
 
-useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha 123) -G GRP_SEC
+useradd rogerio -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 echo "criado usuário rogerio com senha inicial padrão"
 
 
